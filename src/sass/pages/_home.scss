@@ -1,0 +1,62 @@
+.highlight-section{
+    margin-top: 3rem;
+    padding:1rem 8%;
+
+    @include design(tab-horizontal){
+        // padding:4rem 15rem;
+    }
+    
+
+    &__heading{
+        text-align: center;
+    
+        &--sub{
+            text-align: center;
+        }
+    }
+
+    &__post-content{ 
+        padding:2rem;
+        position: absolute;
+        top:35%;
+        height: inherit;
+
+        @include design(tab-horizontal){
+            top:60%;
+            height: auto;
+        }
+        
+    }
+
+    &__post-title{
+        font-size: 2.5rem ;
+        color:$white-color;
+        border:.3rem solid white;
+        display: inline-block;
+        padding:.5rem 2rem;
+    }
+
+    &__post-description {
+        
+      & > a:link,
+      & > a:visited {
+          letter-spacing: .2rem;
+        color: $white-color;
+        font-size:2rem;
+        font-weight:600;
+      }
+
+      & > a:hover,
+      & > a:active{
+          color: $secondary-light-1;
+          text-decoration: underline;
+      }
+    }
+
+    &__description-btn{
+        margin-top:2rem;
+        font-size:1.8rem;
+    }
+
+}
+

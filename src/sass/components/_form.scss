@@ -1,0 +1,45 @@
+.form{
+    font-size:1.6rem;
+
+    &__input{
+        margin:0 6uto;
+        font-size:2rem;
+        display: block;
+        width:90%;
+        padding:1.5rem;
+        border:2px solid $primary;
+        border-radius: 2px;
+        outline: 0;
+        
+        &:not(:last-child){
+            margin-bottom:2rem;
+        }
+
+        &::placeholder{
+            color:$grey-color;
+        }
+    }
+
+    &__label{
+        color:$primary;
+        font-size:1.3rem;
+        font-weight:700;
+        display: block;
+        text-align:left;
+        transform:translateY(-8rem) translateX(0.8rem);
+        transition: all .2s;
+        backface-visibility: hidden;
+    }
+
+    &__input:placeholder-shown + &__label{
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-6rem) translateX(5.5rem);
+    }
+
+    &__submit-icon{
+        color:$secondary;
+        font-size:2rem;
+        margin-left:2rem;
+    }
+}

@@ -1,0 +1,25 @@
+.contact{
+    margin-top: -8.5rem; //Navbar Height = 8.5rem
+    height: 100vh;
+    width:100%;
+    z-index: -1;
+    background-image: linear-gradient(210deg, rgba($secondary-light-1,.6),rgba($primary-dark-1,.7)),url('../../images/contact-us-background.jpg');
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+
+    &__form{
+        width:60%;
+        margin: 0 auto;
+        @include center-vh;
+        text-align: center;
+    }
+
+    &__submit-btn{
+        font-size: 2rem;
+        width:60%;
+        
+        border-radius: 2px;
+        padding:2rem 0;
+    }
+}

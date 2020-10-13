@@ -1,0 +1,41 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $black-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary-heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: $primary;
+    display: block;
+    letter-spacing: -0.1rem;
+    text-transform: uppercase;
+}
+
+.secondary-heading {
+    color: $primary;
+    font-size: 3.5rem;
+    font-weight: 400;
+    &__sub {
+        font-size: 2rem;
+        color: $primary;
+    }
+}
+
+.tertiary-heading {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: 1.6rem;
+    color: $grey-color;
+}

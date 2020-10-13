@@ -1,0 +1,46 @@
+.about {
+    &__secondary-heading {
+        border-bottom: 0.5rem solid $tertiary-dark-1;
+    }
+
+    &-grid {
+        &__content {
+            background-color: $secondary;
+            height: 40rem;
+            padding: 10rem;
+        }
+
+        &__icon {
+            font-size: 6rem;
+            color: $primary-dark-1;
+        }
+
+        &__heading{
+            color: $tertiary-dark-1;
+        }
+
+        &__description {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: $primary-dark-1;
+        }
+
+        &__image {
+            width:100%;
+            height: 40rem;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            &--1{
+                background-image: url("../../images/about-grid-2.jpg");
+                
+            }
+            &--2{
+                background-image: url("../../images/about-grid-2.jpg");
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.hr{
+    width:60%;
+    height: .2rem;
+    display: inline-block;
+    position: relative;
+
+    &__photo{
+        height:3rem;
+        position: absolute;
+        top:-2rem;
+        left:45%;
+    }
+
+    &__blue{
+        background-color: $primary-light-1;
+    }
+
+    @include design(tab-portrait){
+
+        &__photo{
+            height: 3.5rem;
+        }
+    }
+    
+}
+
+.text-center{
+    text-align: center;
+}
+.center-container{
+    width:100%;
+    @include center-vh;
+}
+
+.container{
+    
+    &--90{
+        width:90%;
+        margin:0 auto;
+    }
+}
+

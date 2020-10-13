@@ -1,0 +1,37 @@
+@mixin clearfix{
+
+    &::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+}
+
+// Make position relative of parent before using it
+@mixin center-vh{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+//Media Queries
+// 1em = 16px
+@mixin design($device){
+    // normal is for phone
+
+    @if($device == tab-portrait){
+        @media (min-width: 37.5em) {@content};  //600px
+    }
+    @if($device == tab-horizontal){
+        @media (min-width: 56.25em) {@content};  //900px
+    }
+    @if($device == desktop){
+        @media (min-width: 75em) {@content};  //1200px
+    }
+    @if($device == big-desktop){
+        @media (min-width: 112.5em) {@content};  //1800px
+    }
+    
+}

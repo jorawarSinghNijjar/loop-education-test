@@ -1,0 +1,58 @@
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+
+    @include clearfix;
+
+    [class^="col-"] {
+        width: 100%;
+
+        @include design(tab-portrait) {
+            float: left;
+
+            &:not(:last-child) {
+                margin-right: $gutter-horizontal;
+            }
+        }
+    }
+
+    @include design(tab-horizontal) {
+        .col-1-of-3 {
+            width: calc((100% - #{$gutter-horizontal} * 2) / 3);
+        }
+
+        .col-1-of-2 {
+            width: calc((100% - #{$gutter-horizontal}) / 2);
+        }
+    }
+}
+
+.grid {
+    .row {
+        max-width: $grid-width;
+        margin: 0 auto;
+        margin-bottom:-5px;
+
+        @include clearfix;
+
+        [class^="col-"] {
+            width: 100%;
+
+            @include design(tab-portrait) {
+                float: left;
+                margin-right:0;
+            }
+        }
+
+        @include design(tab-horizontal) {
+            .col-1-of-2 {
+                width: 50%;
+                margin-bottom:-5px; // Wierd margin showing up (needs to be fixed)
+            }
+        }
+    }
+}
