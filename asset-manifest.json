@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/loop-education-test/static/css/main.cbb3882e.chunk.css",
+    "main.js": "/loop-education-test/static/js/main.35e76faa.chunk.js",
+    "main.js.map": "/loop-education-test/static/js/main.35e76faa.chunk.js.map",
+    "runtime-main.js": "/loop-education-test/static/js/runtime-main.b6e17286.js",
+    "runtime-main.js.map": "/loop-education-test/static/js/runtime-main.b6e17286.js.map",
+    "static/js/2.9c20de76.chunk.js": "/loop-education-test/static/js/2.9c20de76.chunk.js",
+    "static/js/2.9c20de76.chunk.js.map": "/loop-education-test/static/js/2.9c20de76.chunk.js.map",
+    "index.html": "/loop-education-test/index.html",
+    "precache-manifest.eb0980936ed3823e01455f799af641f8.js": "/loop-education-test/precache-manifest.eb0980936ed3823e01455f799af641f8.js",
+    "service-worker.js": "/loop-education-test/service-worker.js",
+    "static/css/main.cbb3882e.chunk.css.map": "/loop-education-test/static/css/main.cbb3882e.chunk.css.map",
+    "static/js/2.9c20de76.chunk.js.LICENSE.txt": "/loop-education-test/static/js/2.9c20de76.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/loop-education-test/static/media/why-study-abroad-header.0670e6d2.jpg",
+    "static/media/book-icon.png": "/loop-education-test/static/media/book-icon.8f01031d.png",
+    "static/media/main-logo-without-background.png": "/loop-education-test/static/media/main-logo-without-background.c654aa4f.png",
+    "static/media/menu-icon.png": "/loop-education-test/static/media/menu-icon.1942398e.png",
+    "static/media/student.png": "/loop-education-test/static/media/student.343f3994.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6e17286.js",
+    "static/js/2.9c20de76.chunk.js",
+    "static/css/main.cbb3882e.chunk.css",
+    "static/js/main.35e76faa.chunk.js"
+  ]
+}
