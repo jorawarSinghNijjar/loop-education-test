@@ -1,8 +1,8 @@
 import React from "react";
 
 import Header from "../layout/Header";
-import studentImage from '../../images/student.png';
-import bookIcon from '../../images/book-icon.png';
+import studentImage from '../images/student.png';
+import bookIcon from '../images/book-icon.png';
 
 const Home = () => {
     const details = {

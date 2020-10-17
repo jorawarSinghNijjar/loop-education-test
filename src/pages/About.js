@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layout/Header";
-import Features from "../parts/Features";
-import Grid from '../parts/Grid';
+import Features from "../components/Features";
+import Grid from '../components/Grid';
 const About = () => {
     const details = {
         page: "about",

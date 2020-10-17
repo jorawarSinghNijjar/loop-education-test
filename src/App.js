@@ -10,14 +10,19 @@ import IeltsOnline from "./pages/IeltsOnline";
 import StudyInAustralia from "./pages/StudyInAustralia";
 import StudyInCanada from "./pages/StudyInCanada";
 import WhyStudyAbroad from "./pages/WhyStudyAbroad";
+import BookAppointment from "./components/BookAppointment";
 
-import '../sass/main.scss'
+import theme from './Theme';
+import {ThemeProvider} from '@material-ui/core/styles';
+
+import './sass/main.scss'
+
 
 class App extends Component {
 
   render() {
     return (
-      <>
+      <ThemeProvider theme={theme}>
         <BrowserRouter>
           <Navbar />
           <Switch>
@@ -39,13 +44,16 @@ class App extends Component {
             <Route exact path="/why-study-abroad">
               <WhyStudyAbroad />
             </Route>
+            <Route exact path="/book-app">
+              <BookAppointment />
+            </Route>
             <Route exact path="/">
               <Home />
             </Route>
           </Switch>
           <Footer />
         </BrowserRouter>
-      </>
+      </ThemeProvider>
     );
   }
 }

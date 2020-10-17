@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from '../../../images/main-logo-without-background.png';
-import menuIcon from '../../../images/menu-icon.png';
+import logo from '../../images/main-logo-without-background.png';
+import menuIcon from '../../images/menu-icon.png';
 
 class Navbar extends Component {
     constructor(props) {
