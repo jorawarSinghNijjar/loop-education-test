@@ -1,40 +1,40 @@
-.two-col-container {
-  margin-top: 4rem;
-  height: 70vh;
-  width: 100%;
-  @include clearfix;
+// .two-col-container {
+//   margin-top: 4rem;
+//   height: 70vh;
+//   width: 100%;
+//   @include clearfix;
 
-  &__left-col {
-      width:100%;
-      height:40%;
-      background-color: $white-color;
-      padding:1rem;
+//   &__left-col {
+//       width:100%;
+//       height:40%;
+//       background-color: $white-color;
+//       padding:1rem;
 
-    @include design(tab-horizontal) {
-      width: 40%;
-      height: inherit;
-      padding: 18% 4rem;
-      float: left;
-    }
-  }
+//     @include design(tab-horizontal) {
+//       width: 40%;
+//       height: inherit;
+//       padding: 18% 4rem;
+//       float: left;
+//     }
+//   }
 
-  &__right-col {
-      position: relative;
-      width:100%;
-      height:60%;
-      background-image: linear-gradient(
-          to bottom,
-          rgba($primary, 0.5),
-          rgba($primary, 0.7)
-        ),
-        url("../../images/students.jpg");
-      background-size: cover;
-      background-position: center;
+//   &__right-col {
+//       position: relative;
+//       width:100%;
+//       height:60%;
+//       background-image: linear-gradient(
+//           to bottom,
+//           rgba($primary, 0.5),
+//           rgba($primary, 0.7)
+//         ),
+//         url("../../images/students.jpg");
+//       background-size: cover;
+//       background-position: center;
 
-    @include design(tab-horizontal) {
-      width: 60%;
-      height: inherit;
-      float: left;
-    }
-  }
-}
+//     @include design(tab-horizontal) {
+//       width: 60%;
+//       height: inherit;
+//       float: left;
+//     }
+//   }
+// }

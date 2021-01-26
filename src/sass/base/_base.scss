@@ -1,33 +1,33 @@
 
-body{
-  box-sizing: border-box;
-  background-color: white;
-}
+// body{
+//   box-sizing: border-box;
+//   background-color: white;
+// }
 
-*,
-*::after,
-*::before{
-  margin: 0;
-  padding:0;
-  box-sizing: inherit;
-}
+// *,
+// *::after,
+// *::before{
+//   margin: 0;
+//   padding:0;
+//   box-sizing: inherit;
+// }
 
 
-html{
+// html{
   
-  font-size: 50%;
+//   font-size: 50%;
 
-  @include design(tab-portrait){
-    font-size: 55%; 
-  }
+//   @include design(tab-portrait){
+//     font-size: 55%; 
+//   }
 
-  @include design(desktop){
-    font-size: 62.5%; 
-  }
+//   @include design(desktop){
+//     font-size: 62.5%; 
+//   }
   
-  @include design(big-desktop){
-    font-size: 70%; 
-  }
+//   @include design(big-desktop){
+//     font-size: 70%; 
+//   }
 
-}
+// }
 
