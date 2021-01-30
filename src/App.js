@@ -63,7 +63,7 @@ class App extends Component {
                   <Route exact path="/book-app">
                     <BookAppointment />
                   </Route>
-                  <Route exact path="/">
+                  <Route path="/">
                     <Home />
                   </Route>
                 </Switch>
