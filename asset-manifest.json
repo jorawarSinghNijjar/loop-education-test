@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/loop-education-test/static/css/main.4e1b5285.chunk.css",
-    "main.js": "/loop-education-test/static/js/main.4d455dad.chunk.js",
-    "main.js.map": "/loop-education-test/static/js/main.4d455dad.chunk.js.map",
+    "main.js": "/loop-education-test/static/js/main.acfa4458.chunk.js",
+    "main.js.map": "/loop-education-test/static/js/main.acfa4458.chunk.js.map",
     "runtime-main.js": "/loop-education-test/static/js/runtime-main.b6e17286.js",
     "runtime-main.js.map": "/loop-education-test/static/js/runtime-main.b6e17286.js.map",
     "static/js/2.df77018d.chunk.js": "/loop-education-test/static/js/2.df77018d.chunk.js",
     "static/js/2.df77018d.chunk.js.map": "/loop-education-test/static/js/2.df77018d.chunk.js.map",
     "index.html": "/loop-education-test/index.html",
-    "precache-manifest.278c6ab7422bd93f910d43ffe44780ba.js": "/loop-education-test/precache-manifest.278c6ab7422bd93f910d43ffe44780ba.js",
+    "precache-manifest.8a8590ca8644213fa96d97cc7c1f6d6b.js": "/loop-education-test/precache-manifest.8a8590ca8644213fa96d97cc7c1f6d6b.js",
     "service-worker.js": "/loop-education-test/service-worker.js",
     "static/css/main.4e1b5285.chunk.css.map": "/loop-education-test/static/css/main.4e1b5285.chunk.css.map",
     "static/js/2.df77018d.chunk.js.LICENSE.txt": "/loop-education-test/static/js/2.df77018d.chunk.js.LICENSE.txt",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.b6e17286.js",
     "static/js/2.df77018d.chunk.js",
     "static/css/main.4e1b5285.chunk.css",
-    "static/js/main.4d455dad.chunk.js"
+    "static/js/main.acfa4458.chunk.js"
   ]
 }
